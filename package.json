@@ -1,0 +1,31 @@
+{
+    "name": "com.stevejstone.ui-framework",
+    "version": "0.0.2",
+    "displayName": "SteveJstone - UI Framework",
+    "description": "This is a package to help with using the UI toolkit",
+    "unity": "2021.3",
+    "unityRelease": "0b5",
+    "documentationUrl": "https://example.com/",
+    "changelogUrl": "https://example.com/changelog.html",
+    "licensesUrl": "https://example.com/licensing.html",
+    "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.stevejstone.core": "0.0.1"
+   },
+   "keywords": [
+      "ui",
+      "bootstrap"
+    ],
+    "author": {
+      "name": "Steve Johnstone",
+      "email": "steve.jstone@gmail.com",
+      "url": "https://www.example.com"
+    },
+    "samples": [
+      {
+          "displayName": "Demo",
+          "description": "A demo scene showing all of the UI elements",
+          "path": "Samples~/Demo"
+      }
+    ]
+  }

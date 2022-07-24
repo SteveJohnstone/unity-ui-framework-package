@@ -1,0 +1,102 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Features/UI.Elements/TabbedList.uss?fileID=7433441132597879392&amp;guid=228ab15145b71c741914eea4ba8ff219&amp;type=3#TabbedList" />
+    <Style src="project://database/Assets/Features/UI.Elements/BaseStyle.uss?fileID=7433441132597879392&amp;guid=a2d277f1c07faef49a3aaafc6aac28cb&amp;type=3#BaseStyle" />
+    <SteveJstone.Container>
+        <ui:ScrollView>
+            <ui:VisualElement>
+                <SteveJstone.Header text="Standard Components" />
+                <ui:Label text="Example label. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula." display-tooltip-when-elided="true" />
+                <SteveJstone.Header text="Buttons" class="h2" />
+                <ui:VisualElement name="Buttons" class="row">
+                    <SteveJstone.Button text="Primary" display-tooltip-when-elided="true" class="btn-primary" />
+                    <SteveJstone.Button text="Secondary" display-tooltip-when-elided="true" class="btn-secondary" />
+                    <SteveJstone.Button text="Success" display-tooltip-when-elided="true" class="btn-success" />
+                    <SteveJstone.Button text="Info" display-tooltip-when-elided="true" class="btn-info" />
+                    <SteveJstone.Button text="Warning" display-tooltip-when-elided="true" class="btn-warning" />
+                    <SteveJstone.Button text="Danger" display-tooltip-when-elided="true" class="btn-danger" />
+                    <SteveJstone.Button text="Light" display-tooltip-when-elided="true" class="btn-light" />
+                    <SteveJstone.Button text="Dark" display-tooltip-when-elided="true" class="btn-dark" />
+                    <SteveJstone.Button text="Link" display-tooltip-when-elided="true" class="btn-link" />
+                </ui:VisualElement>
+                <SteveJstone.Header text="Form Controls" class="h2" />
+                <ui:Toggle label="Toggle" />
+                <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" />
+                <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" class="custom-slider" />
+                <ui:SliderInt picking-mode="Ignore" label="SliderInt" value="42" high-value="100" class="custom-slider" />
+                <ui:MinMaxSlider picking-mode="Ignore" label="Min/Max Slider" min-value="10" max-value="12" low-limit="-10" high-limit="40" />
+                <ui:DropdownField label="Dropdown" index="-1" choices="1,2,3,4,5" />
+                <ui:RadioButton label="Radio Button" />
+                <ui:RadioButtonGroup label="Radio Button Group" value="-1">
+                    <ui:RadioButton label="Radio Button" />
+                    <ui:RadioButton label="Radio Button" />
+                    <ui:RadioButton label="Radio Button" />
+                    <ui:RadioButton label="Radio Button" />
+                </ui:RadioButtonGroup>
+                <SteveJstone.Header text="Progress Bars" class="h2" />
+                <ui:ProgressBar title="basic" low-value="25" high-value="100" />
+                <ui:ProgressBar title="success" low-value="25" high-value="100" class="bg-success" />
+                <ui:ProgressBar title="info" low-value="50" high-value="100" class="bg-info" />
+                <ui:ProgressBar title="warning" low-value="75" high-value="100" class="bg-warning" />
+                <ui:ProgressBar title="danger" low-value="100" high-value="100" class="bg-danger" />
+                <SteveJstone.Header text="Misc..." class="h2" />
+                <ui:Foldout text="Foldout" />
+                <ui:Scroller high-value="100" direction="Horizontal" value="42" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <SteveJstone.Header text="Custom Components" />
+                <SteveJstone.Card>
+                    <SteveJstone.CardHeader>
+                        <SteveJstone.Header text="Card Header" />
+                    </SteveJstone.CardHeader>
+                    <SteveJstone.CardBody>
+                        <ui:Label text="This is a card body, with some text, lorum ipsum..." display-tooltip-when-elided="true" />
+                    </SteveJstone.CardBody>
+                    <SteveJstone.CardFooter>
+                        <ui:Label text="Card footer..." display-tooltip-when-elided="true" />
+                    </SteveJstone.CardFooter>
+                </SteveJstone.Card>
+                <SteveJstone.TabbedList section-count="2" initial-section="Section1" />
+                <ui:VisualElement name="Alerts" class="row">
+                    <SteveJstone.Alert class="alert-warning">
+                        <SteveJstone.Header text="Warning!" />
+                        <ui:Label text="Best check yo self, you&apos;re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et." display-tooltip-when-elided="true" />
+                    </SteveJstone.Alert>
+                </ui:VisualElement>
+                <ui:VisualElement name="Alerts1" class="row">
+                    <ui:VisualElement class="col">
+                        <SteveJstone.Alert class="alert-danger">
+                            <ui:Label text="Best check yo self, you&apos;re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et." display-tooltip-when-elided="true" />
+                        </SteveJstone.Alert>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="col">
+                        <SteveJstone.Alert class="alert-success">
+                            <ui:Label text="Best check yo self, you&apos;re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et." display-tooltip-when-elided="true" />
+                        </SteveJstone.Alert>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="col">
+                        <SteveJstone.Alert class="alert-info">
+                            <ui:Label text="Best check yo self, you&apos;re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et." display-tooltip-when-elided="true" />
+                        </SteveJstone.Alert>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Alerts2" class="row">
+                    <ui:VisualElement class="col">
+                        <SteveJstone.Alert class="alert-primary">
+                            <ui:Label text="Best check yo self, you&apos;re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et." display-tooltip-when-elided="true" />
+                        </SteveJstone.Alert>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="col">
+                        <SteveJstone.Alert class="alert-secondary">
+                            <ui:Label text="Best check yo self, you&apos;re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et." display-tooltip-when-elided="true" />
+                        </SteveJstone.Alert>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="col">
+                        <SteveJstone.Alert class="alert-light">
+                            <ui:Label text="Best check yo self, you&apos;re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et." display-tooltip-when-elided="true" />
+                        </SteveJstone.Alert>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </SteveJstone.Container>
+</ui:UXML>

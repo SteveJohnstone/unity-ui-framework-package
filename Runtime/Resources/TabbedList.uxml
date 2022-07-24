@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Experimental/8_Construction/UI/TabbedList.uss?fileID=7433441132597879392&amp;guid=228ab15145b71c741914eea4ba8ff219&amp;type=3#TabbedList" />
+    <ui:VisualElement name="Tabs" class="tabs" style="flex-direction: row; justify-content: flex-start;">
+        <SteveJstone.Tab target="Section1" class="tab active" />
+        <SteveJstone.Tab target="Section2" class="tab" />
+        <SteveJstone.Tab target="Section3" class="tab" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Sections" class="tab-sections">
+        <SteveJstone.TabSection name="Section1" class="tab-section">
+            <ui:Label text="Section 1" display-tooltip-when-elided="true" />
+        </SteveJstone.TabSection>
+        <SteveJstone.TabSection name="Section2" class="tab-section">
+            <ui:Label text="Section 2" display-tooltip-when-elided="true" />
+        </SteveJstone.TabSection>
+        <SteveJstone.TabSection name="Section3" class="tab-section">
+            <ui:Label text="Section 3" display-tooltip-when-elided="true" />
+        </SteveJstone.TabSection>
+    </ui:VisualElement>
+</ui:UXML>

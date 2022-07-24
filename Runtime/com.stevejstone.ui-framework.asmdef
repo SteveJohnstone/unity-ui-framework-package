@@ -1,0 +1,16 @@
+{
+    "name": "com.stevejstone.ui-framework",
+    "rootNamespace": "",
+    "references": [
+        "GUID:53fcee71e1256e0498d82658647844e7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
