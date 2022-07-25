@@ -1,5 +1,4 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/Experimental/8_Construction/UI/TabbedList.uss?fileID=7433441132597879392&amp;guid=228ab15145b71c741914eea4ba8ff219&amp;type=3#TabbedList" />
     <ui:VisualElement name="Tabs" class="tabs" style="flex-direction: row; justify-content: flex-start;">
         <SteveJstone.Tab target="Section1" class="tab active" />
         <SteveJstone.Tab target="Section2" class="tab" />
